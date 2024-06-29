@@ -1,13 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
-    <h1>Formulario</h1>
 
+<body>
+
+    <h1>Formulario</h1>
+    <form action="">
+        <h2>Ejemplos de input</h2>
+        <p>
+            <label for="">Nombre</label>
+            <input type="text" name="name" id="" placeholder="nombre">
+        </p>
+
+        <p>
+            <label for="">Apellido</label>
+            <input type="text" name="Apellido" id="" placeholder="apellido">
+        </p>
+
+        <p>
+            <label for="">Contraseña</label>
+            <input type="password" name="pass" id="">
+        </p>
+
+
+        <label for="sexo">Sexo</label>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" value="Hombre">
+                <label for="">Hombre</label>
+            </li>
+            <li>
+                <input type="radio" name="sexo" value="Mujer">
+                <label for="">Mujer</label>
+            </li>
+        </ul>
+        <label>Hobbies</label>
+        <ul>
+            <li>
+                <input type="checkbox" name="Hobbies" value="bailar" id="bailar">
+                <label for="bailar">Bailar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Hobbies" value="cantar" id="cantar">
+                <label for="cantar">cantar</label>
+            </li>
+            <li>
+                <input type="checkbox" value="Hobbies" name="nadar" id="nadar">
+                <label for="nadar">Nadar</label>
+            </li>
+        </ul>
+        <p>
+            <label for="titulo">Titulo</label>
+            <select name="titulo" id="">
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+        </p>
+        <p>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id=""></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
 </body>
+
 </html>
